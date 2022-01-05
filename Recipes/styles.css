@@ -1,0 +1,40 @@
+h1 {
+    background-color: hsl(180, 100%, 50%);
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family: 'Times New Roman', Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    background-color: lightyellow;
+    color: rgb(0, 0, 255);
+    font-size: 24px;
+    font-family: 'Times New Roman', Verdana, sans-serif;
+}
+
+.description {
+    background-color: chocolate;
+}
+
+.image {
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 350px;
+}
+
+#reference {
+    color: hsl(120, 61%, 50%);
+}
+
+#link {
+    color: brown;
+}
+
+.list {
+    background-color: hsl(351, 100%, 86%);
+    color: #00000;
+}

@@ -5,20 +5,25 @@
 <head>
     <title>Recipes Website</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <h1>Lasagna Recipe</h1>
-    <img src="../Images/Lasagna.jpg" alt="Tasty Vegetable Lasagna">
+    <div class="image"><img src="../Images/Lasagna.jpg" alt="Tasty Vegetable Lasagna"></div>
+
 
     <h2>Description</h2>
-    <p>This is a hearty vegetable Lasagna. Very tast and delicious, hope you will enjoy.</p>
-    <p>Yield: 12 Servings</p>
-    <p>By <a href="https://www.allrecipes.com/cook/sbeachem@juno.com/recipes/">Sue</a></p>
+    <div class="description">
+        <p>This is a hearty vegetable Lasagna. Very tast and delicious, hope you will enjoy.</p>
+        <p>Yield: 12 Servings</p>
+        <p id="reference">By <a id="link" href="https://www.allrecipes.com/cook/sbeachem@juno.com/recipes/">Sue</a></p>
+    </div>
+
 
     <h2>Ingredients</h2>
-    <ul>
+    <ul class="list">
         <li>1 (16 ounce) package lasagna noodles</li>
         <li>1 pound fresh mushrooms, sliced</li>
         <li>¾ cup chopped green bell pepper</li>
@@ -34,7 +39,7 @@
     </ul>
 
     <h2>Steps</h2>
-    <ol>
+    <ol class="list">
         <li>Cook the lasagna noodles in a large pot of boiling water for 10 minutes, or until al dente. Rinse with cold water, and drain.</li>
         <li>In a large saucepan, cook and stir mushrooms, green peppers, onion, and garlic in oil. Stir in pasta sauce and basil; bring to a boil. Reduce heat, and simmer 15 minutes.</li>
         <li>Mix together ricotta, 2 cups mozzarella cheese, and eggs.</li>

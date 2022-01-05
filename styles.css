@@ -1,0 +1,35 @@
+h1 {
+    background-color: hsl(120, 100%, 75%);
+    color: #000000;
+    font-size: 36px;
+    font-family: Verdana, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+#Lasagna {
+    background-color: hsl(60, 100%, 75%);
+    color: rgb(255, 0, 255);
+    font-size: 24px;
+    font-family: Verdana, 'Times New Roman', sans-serif;
+}
+
+#Quiche {
+    background-color: orange;
+    color: #0000ff;
+    font-size: 24px;
+    font-family: Verdana, 'Times New Roman', sans-serif;
+}
+
+#Enchiladas {
+    background-color: pink;
+    color: yellow;
+    font-size: 24px;
+    font-family: Verdana, 'Times New Roman', sans-serif;
+}
+
+#Chilli {
+    background-color: hsl(0, 0%, 50%);
+    color: #ff0000;
+    font-size: 24px;
+    font-family: Verdana, 'Times New Roman', sans-serif;
+}
